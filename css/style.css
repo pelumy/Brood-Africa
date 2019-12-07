@@ -1,0 +1,490 @@
+:root{
+    --deep-orange:#FD7E14;
+    --light-orange:#FAB780;
+    --white:#ffffff;
+    --black:#000000;
+}
+
+.transparent-light-orange-btn{
+    background-color: transparent;
+    border: 4px solid var(--light-orange);
+    border-radius: 20px;
+    color: var(--white);
+}
+.transparent-light-orange-btn:hover{
+    background-color: transparent;
+    color: var(--deep-orange);
+    border: 4px solid var(--deep-orange);
+
+}
+
+.solid-deep-orange-btn{
+    background-color: var(--deep-orange);
+    border-radius: 20px;
+}
+
+.solid-deep-orange-btn:hover{
+    background-color: var(--light-orange);
+    border-radius: 20px;
+    color: var(--white);
+}
+
+.solid-light-orange-btn{
+    background-color: var(--light-orange);
+    border-radius: 20px;
+}
+
+.solid-light-orange-btn:hover{
+    background-color: var(--deep-orange);
+color: var(--white);
+}
+
+.transparent-deep-orange-btn{
+    background-color: transparent;
+    border: 4px solid var(--deep-orange);
+    border-radius: 20px;
+    color: var(--white); 
+}
+
+.transparent-deep-orange-btn:hover{
+    background-color: transparent;
+    color: var(--light-orange); 
+    border: 4px solid var(--light-orange);
+
+}
+
+.main-heading{
+    font-weight: 900;
+    font-size: 5vw;
+    color: var(--deep-orange);
+}
+
+.box{
+    box-shadow: 0 10px 20px 
+    rgba(209, 14, 14, 0.19),
+    rgba(247, 108, 108, 0.23);
+}
+
+.stroke{
+    color: var(--deep-orange);
+    font-weight: 900l;
+}
+
+
+
+
+
+
+
+/* this is necessary for the javascript,*/
+/* .navbar-change{
+    background-color:var(--white);
+    text-align: center;
+    padding-left: 0;
+    color: var(--black); */
+
+
+/* .navbar-change a {
+    border-bottom: 0.5px solid rgba(125, 125, 125, 0.3);
+    color:black;
+}
+
+.navbar-change >.collapse{
+    width: 20px;
+} */
+
+/* this is necessary for the javascript  end*/
+
+/* This applies to all elements on the website */
+*{
+    font-family: 'Open Sans', serif, sans-serif;
+}
+/* end */
+
+.landing-content{
+    background-image: linear-gradient(
+        53.47deg, rgba(0, 0, 0, 0.5)5.46%,
+        rgba(253, 126, 20, 0.5)40.25%,
+        rgba(0, 0, 0, 0.5)58.85%,
+        rgba(253, 126, 20, 0.5)107.37% 
+    ),
+    url('../images/landingpage.png');
+    height: 100%;
+    background-position: center center;
+    position: relative;
+}
+#landing-top{
+    background-color: var(--deep-orange);
+}
+
+#landing-top a{
+    text-decoration: none;
+    color: white;
+}
+
+.small-landing-text{
+    font-size: 2vw;
+}
+
+.large-landing-text{
+    font-size: 7vw;
+}
+
+
+
+.navbar{
+    background-color:var(--white);
+    height: auto;
+    color: var(--black); 
+    padding-bottom: 5px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--deep-orange);
+}
+nav a:hover{
+    color: var(--deep-orange);
+}
+
+
+
+ul, li, a.nav-link{
+    color: var(--black);
+    font-size: 1.8vw;
+    padding-left: 5px;
+
+}
+
+ul, li, a.nav-link:hover{
+    color: var(--light-orange);
+}
+
+ul, li, a.nav-link:active{
+    color: var(--deep-orange);
+}
+
+/* homepage */
+
+.bg-image2{
+    background-image: 
+        linear-gradient(
+        rgba(0, 0, 0, 0.55),
+        rgba(0, 0, 0, 0.55)
+    ),
+    url('../images/homepage-banner.jpg');
+    height: 300px;
+    width: 100%;
+    position: relative;
+    background-position: center center;
+    object-fit: cover;
+}
+
+.banner-container{
+    position: relative;
+    width: 100%;
+}
+
+.large-homepage-text{
+    font-size: 3vw;
+}
+
+.bg-image3{
+    background-repeat: no-repeat;
+    background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.99),
+            rgba(0, 0, 0, 0.99)
+    ),
+    url('../images/homepage-2nd banner.jpg');
+    height: auto;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    margin-top: 50px;
+    object-fit: cover;
+}
+
+.bg-image3 img{
+    max-width: 100%;
+    height: auto;
+    float: right;
+}
+
+hr{
+    border: 0.5px solid var(--light-orange);
+    width: 30px;
+    float: left;
+    margin:0;
+    padding: 0;
+}
+
+
+.solid-deep-orange-btn2{
+    border-radius: 50px;
+    color: var(--white);
+    background-color: var(--deep-orange);
+    border: 1px solid var(--deep-orange);
+}
+
+.solid-underline{
+    color: var(--deep-orange);
+    text-decoration: underline;
+}
+.home-about-text{
+    font-size: 1.5vw;
+}
+
+.bold{
+    font-weight: 900;
+}
+.small-bold{
+    font-weight: 600;
+}
+.homepage-brood{
+    border: 2px solid var(--deep-orange);
+    border-radius: 15px;
+}
+.homepage-brood img{
+    width: 200px;
+    height: auto;
+}
+.homepage-brood a{
+    font-size: 19px;
+}
+.homepage-action{
+    width: 300px;
+    height: 200px;
+    background-color:E5E5E5;
+    box-shadow: var(--deep-orange);
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.action-cards a{
+    color: var(--black);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+.homepage-action:hover{
+    background-color: var(--deep-orange);
+    color: var(--white);
+    font-size: 50px;
+}
+/* volunteer page */
+.bg-image5{
+    background-repeat: no-repeat;
+    background-image: 
+        linear-gradient(
+            rgba(0, 0, 0, 0.1),
+            rgba(0, 0, 0, 0.1)
+    ),
+    url('../images/volunteer banner.jpeg');
+    height: 225px;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    margin-top: 50px;
+    object-fit: cover;
+}
+
+.volunteer-card{
+    background-color: #F1EEEE;
+    border-radius: 10px;
+}
+
+.bg-image6{
+    background-repeat: no-repeat;
+    background-image: 
+        linear-gradient(
+            rgba(97, 95, 95, 0.9),
+            rgba(97, 95, 95, 0.9)
+    ),
+    url('../images/contact and upload banner.png');
+    height: 225px;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    margin-top: 50px;
+    object-fit: cover;
+}
+
+.good-span{
+    font-weight: bolder;
+    color: var(--deep-orange);
+}
+
+/* upload page */
+.working-text > ul > li{
+    color: black;
+    list-style: outside;
+    line-height: 5vh;
+}
+
+.file-btn{
+    background-color: var(--deep-orange);
+    color: var(--white);
+    font-weight: bold;
+}
+
+
+
+/* donate page */
+
+.bg-image7{
+    background-repeat: no-repeat;
+    background-image: 
+        linear-gradient(
+            rgba(228, 83, 26, 0.3),
+            rgba(104, 100, 100, 0.2)
+    ),
+    url('../images/donate-banner.jpg');
+    height: 225px;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    margin-top: 50px;
+    object-fit: cover;
+}
+
+.donate-heading{
+    color: var(--deep-orange);
+    font-size: 3vw;
+}
+.donate-card{
+    background-color: #F7F3F3;
+    border-radius: 20px;
+}
+
+/* .wrapper{
+    padding: 4em;
+    padding-bottom: 0;
+} */
+
+.currency-selector{
+    position: relative;
+    padding-left:.5rem ;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background: transparent
+}
+
+.currency-amount{
+    text-align: right;
+}
+
+
+/* brood page */
+
+.broodbg{
+    background-color: #E5E5E5;
+    border-radius: 10px;
+}
+
+.brood-body{
+    background-color: #DDD7D7;
+}
+
+.brood-rule{
+    margin-left:50px;
+}
+
+.brood-card-text{
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.pagination >li> a{
+    background-color: var(--deep-orange);
+    color: var(--white);
+}
+
+.pagination >li> a:hover{
+    background-color: var(--light-orange);
+}
+
+
+
+
+
+/* track progress */
+.progress-rule{
+    margin-left:18px;
+}
+.track-sidebar{
+    border: 1px solid var(--deep-orange);   
+}
+.track-sidebar ul>li>a{
+    color: var(--black);
+}
+.track-sidebar ul>li{
+    border-bottom: 0.5px solid rgba(185, 184, 184, 0.5);
+    padding: 0.5px;
+    
+}
+
+
+
+
+
+
+.bg-image4{
+    background-repeat: no-repeat;
+    background-image: 
+        linear-gradient(
+            rgba(255, 255, 255, 0.95),
+            rgba(255, 255, 255, 0.95)
+    ),
+    url('../images/all-footer.jpg');
+    height: auto;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    object-fit: cover;
+}
+
+/* about us */
+#about img {
+    width: 500px;
+    padding-top: 28px;
+}
+
+.stages img{
+    width: 200px;
+    height: 150px;
+}
+
+.about-text{
+    line-height: 5vh;
+}
+
+
+
+
+
+
+
+footer{
+    margin-top: 50px;
+
+}
+
+footer ul,li,a{
+    list-style: none;
+}
+.footer-contact ul, li{
+ font-size: 16px;
+}
+
+.subscribe-form{
+    border: 1px solid var(--deep-orange);
+}
+
+.copyright{
+    color:var(--deep-orange); 
+    font-weight: 100; 
+    font-family: monospace;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.15);
+}
