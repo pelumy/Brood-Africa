@@ -11,12 +11,13 @@
 </head>
 
 <body>
-    <!-- nav menu -->
-    <nav class="navbar navbar-expand-lg fixed-top mb-5 pb-1">
-        <div class="container">
+    <div class="container-fluid">
+        <!-- nav menu -->
+        <nav class="navbar navbar-expand-lg fixed-top mb-5 pb-1">
+
             <a class="navbar-brand" href="index.html">
                 <img src="images/brood-logo.png" alt="" style="width: 50px; height: 50px;">
-                <span style="font-size: 2vw;">Brood Africa</span>
+                Brood Africa
             </a>
             <button class="navbar-toggler" id="navbar-toggle" type="button" data-toggle="collapse" data-target="#nav">
                 <i class="fa fa-bars" style="color: #FD7E14;"></i>
@@ -46,61 +47,57 @@
                 </ul>
 
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 
     <!-- end of nav menu -->
     <!-- top banner -->
     <div class="pt-5">
         <div class="bg-image5">
-
-
-            <div class="container ">
-                <div class="row">
-                    <p class=" ml-5 mt- pt-3 main-heading">Volunteer</p>
-                    <hr class="text-left">
+            <div class="container-fluid ">
+                <!-- heading -->
+                <div class="row col-12">
+                    <p class="pt-3 main-heading">Volunteer</p>
                 </div>
-
                 <!-- btns -->
-                <div class="container mt- pt-3">
-                    <div class="row col-12">
+                
+                    <div class="row col-12 mt-md-5">
                         <!-- break -->
                         <div class="col-6"></div>
                         <!-- 1st btn -->
                         <div class="col-3">
-                            <p class="text-center">
+                            <p class="text-center pt-xs-5">
 
-                                <a href="upload.html" class="btn solid-light-orange-btn px-4 text-white btn-lg bold"
-                                    style="font-size: 2vw;">
+                                <a href="upload.html" class="btn solid-deep-orange-btn btn-md bold text-white">
                                     Upload
                                 </a>
                             </p>
                         </div>
+
                         <!-- 2nd btn -->
                         <div class="col-3">
                             <p class="text-center">
-                                <a href="donate.html" class="btn bold solid-deep-orange-btn px-4 px-sm-3 text-white btn-lg"
-                                    style="font-size: 2vw;">
-                                    Donate
+                                <a href="volunteer.html" class="btn solid-deep-orange-btn btn-md bold text-white">
+                                    Volunteer
                                 </a>
                             </p>
                         </div>
-
                     </div>
 
                 </div>
             </div>
         </div>
     </div>
+    
     <!-- what good -->
 
     <div class="row col-12 pt-5 mb-5">
         <div class="col-md-5">
             <h2 class="pt-0 pb-4" id="typee">What <span class="good-span">Good</span> Shall I Do Today <span
                     class="good-span">?</span></h2>
-            <div class="container">
-                <img src="images/what-good pix.jpeg" alt="what good shall i do?">
-                <p class="volunteer-text pt-5 about-text">There are millions of African children
+            <div class="container-fluid">
+                <img src="images/what-good pix.jpeg" alt="what good shall i do?" class="row">
+                <p class="row volunteer-text pt-5 about-text">There are millions of African children
                     who suffer one form of abause or the
                     other, either sexual,
                     physical, mental, emotional; through child trafficking, child labour,etc.
@@ -122,10 +119,10 @@
         </div>
         <!-- volunteer form -->
 
-        <div class="col-md-6">
-            <div class="container">
-                <div class="card volunteer-card">
-                    <form action="#" id="contact-form" class="inline-form py-4 px-5">
+        <div class="col-md-6 row">
+            <div class="container-fluid">
+                <div class="card volunteer-card ">
+                    <form action="#" id="contact-form" class="inline-form py-4 px-1 px-lg-4">
                         <div class="row">
                             <!-- name -->
                             <div class="col-12">
@@ -161,7 +158,7 @@
                                         <option value="Niger">Niger</option>
                                         <option value="Cameroon">Cameroon</option>
                                         <option value="Benin">Benin</option>
-                                        <option value="Egypt">Egpt</option>
+                                        <option value="Egypt">Egypt</option>
                                         <option value="Kenya">Kenya</option>
                                         <option value="Gambia">Gambia</option>
                                         <option value="South Africa"> South Africa</option>
@@ -205,7 +202,7 @@
     <!-- footer with copyright -->
 
     <footer class="site-footer bg-image4 " role="contentinfo">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row mt-5">
                 <!-- social media -->
                 <div class="col-md-3">
@@ -228,7 +225,7 @@
 
                 <!-- contacts -->
                 <div class="col-md-3 mb-5">
-                    <h5 class="mt-5 mb-3 ml-5">CONTACT</h5>
+                    <h5 class="mt-5 mb-3">CONTACT</h5>
                     <ul class="list-unstyled footer-link">
                         <li class="d-flex mb-2"><i class="fa fa-phone mr-3"></i><span
                                 class="text-dark">+2347036397871</span>
@@ -242,7 +239,7 @@
                     </ul>
                 </div>
                 <div class="col-md-3 mb-5">
-                    <h5 class="mt-5">USEFUL LINKS</h5>
+                    <h5 class="mt-md-5">USEFUL LINKS</h5>
                     <ul class="list-unstyled footer-link">
                         <li><a href="donate.html" class="text-dark">Donate</a></li>
                         <li><a href="upload.html" class="text-dark">Upload</a></li>
@@ -266,7 +263,7 @@
             </div>
         </div>
         <div class="row col-12 copyright d-block mx-auto ">
-            <p class="pt-3 px-3">&copy; Brood Africa 2019</p>
+            <p class=" px-3 py-3">&copy; Brood Africa 2019</p>
         </div>
     </footer>
     <!-- END footer -->

@@ -5,6 +5,36 @@
     --black:#000000;
 }
 
+.left-align{
+    margin-left: 35px;
+}
+.topbar-left-align{
+    margin-left: 12px;
+}
+
+/* .wrapper{
+    float: left;
+    margin-left: 75px;
+}
+.para-wrapper{
+    float: left;
+    margin-left: 100px;
+}
+
+.about-align{
+    margin-left: 60px;
+}
+
+.about-card-align{
+    margin-left: 25px;
+}
+
+.sidebar-align{
+    margin-left:0;
+    padding-left: 0;
+} */
+
+
 .transparent-light-orange-btn{
     background-color: transparent;
     border: 4px solid var(--light-orange);
@@ -55,7 +85,7 @@ color: var(--white);
 
 .main-heading{
     font-weight: 900;
-    font-size: 5vw;
+    font-size: 30px;
     color: var(--deep-orange);
 }
 
@@ -67,7 +97,7 @@ color: var(--white);
 
 .stroke{
     color: var(--deep-orange);
-    font-weight: 900l;
+    font-weight: 900;
 }
 
 
@@ -123,7 +153,7 @@ color: var(--white);
 }
 
 .small-landing-text{
-    font-size: 2vw;
+    font-size:20px;
 }
 
 .large-landing-text{
@@ -151,7 +181,7 @@ nav a:hover{
 
 ul, li, a.nav-link{
     color: var(--black);
-    font-size: 1.8vw;
+    font-size: ;
     padding-left: 5px;
 
 }
@@ -186,7 +216,7 @@ ul, li, a.nav-link:active{
 }
 
 .large-homepage-text{
-    font-size: 3vw;
+    font-size: 30px;
 }
 
 .bg-image3{
@@ -215,10 +245,9 @@ hr{
     border: 0.5px solid var(--light-orange);
     width: 30px;
     float: left;
-    margin:0;
+    margin: 0 0 0 0px;
     padding: 0;
 }
-
 
 .solid-deep-orange-btn2{
     border-radius: 50px;
@@ -232,7 +261,14 @@ hr{
     text-decoration: underline;
 }
 .home-about-text{
-    font-size: 1.5vw;
+    line-height: 2;
+}
+
+.positioning{
+    position: relative;
+    top: 57px;
+    text-align: center;
+
 }
 
 .bold{
@@ -335,8 +371,8 @@ hr{
     background-repeat: no-repeat;
     background-image: 
         linear-gradient(
-            rgba(228, 83, 26, 0.3),
-            rgba(104, 100, 100, 0.2)
+            rgba(49, 47, 47, 0.3),
+            rgba(54, 52, 52, 0.2)
     ),
     url('../images/donate-banner.jpg');
     height: 225px;
@@ -347,13 +383,24 @@ hr{
     object-fit: cover;
 }
 
-.donate-heading{
+.donate-head{
+    font-weight: 900;
+    font-size: 30px;
     color: var(--deep-orange);
-    font-size: 3vw;
+}
+
+.don-text{
+    color: var(--white);
+    font-size: 16px;
 }
 .donate-card{
     background-color: #F7F3F3;
     border-radius: 20px;
+    width: 100%;
+}
+
+.donate-title{
+    color: var(--deep-orange); 
 }
 
 /* .wrapper{
@@ -364,8 +411,9 @@ hr{
 .currency-selector{
     position: relative;
     padding-left:.5rem ;
+    
     width: 100%;
-    height: 100%;
+    height: 38px;
     border: 0;
     background: transparent
 }
@@ -384,6 +432,7 @@ hr{
 
 .brood-body{
     background-color: #DDD7D7;
+    border-radius: 1px solid pink;
 }
 
 .brood-rule{
@@ -391,9 +440,10 @@ hr{
 }
 
 .brood-card-text{
-    font-size: 1vw;
+    font-size: 10px;
     font-weight: bold;
 }
+
 
 .pagination >li> a{
     background-color: var(--deep-orange);
@@ -413,13 +463,14 @@ hr{
     margin-left:18px;
 }
 .track-sidebar{
-    border: 1px solid var(--deep-orange);   
+    border: 1px solid var(--deep-orange);  
+    border-radius: 10px; 
 }
 .track-sidebar ul>li>a{
     color: var(--black);
 }
 .track-sidebar ul>li{
-    border-bottom: 0.5px solid rgba(185, 184, 184, 0.5);
+    border-bottom: 0.5px solid rgba(185, 184, 184, 0.2);
     padding: 0.5px;
     
 }
@@ -448,6 +499,7 @@ hr{
 #about img {
     width: 500px;
     padding-top: 28px;
+    
 }
 
 .stages img{

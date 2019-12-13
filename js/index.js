@@ -33,20 +33,20 @@ setTimeout(function loop() {
     if (count >= length){
         return;
     }
-    setTimeout(loop,200);
-}, 200);
+    setTimeout(loop,150);
+}, 150);
 
 //  $('.main-heading').fadeOut(3000).fadeIn(2000);
 
- let leftOffset = -200;
+ let topOffset = 90;
 function moveHeading() {
     $('.main-heading').offset({
         // left: -200, // static offset
-        left: leftOffset
+        top: topOffset
     });
-    leftOffset++;
-    if (leftOffset > 60) {
-        leftOffset = 60;
+    topOffset++;
+    if (topOffset > 150) {
+        topOffset = 150;
     }
 };
-setInterval(moveHeading, 10);
+setInterval(moveHeading, 20);

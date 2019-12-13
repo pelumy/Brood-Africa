@@ -12,11 +12,12 @@
 
 <body>
     <!-- nav menu -->
-    <nav class="navbar navbar-expand-lg fixed-top mb-5 pb-1">
-        <div class="container">
+    <div class="container-fluid">
+
+        <nav class="navbar navbar-expand-lg fixed-top mb-5 pb-1">
             <a class="navbar-brand" href="index.html">
                 <img src="images/brood-logo.png" alt="" style="width: 50px; height: 50px;">
-                <span style="font-size: 2vw;">Brood Africa</span>
+                Brood Africa
             </a>
             <button class="navbar-toggler" id="navbar-toggle" type="button" data-toggle="collapse" data-target="#nav">
                 <i class="fa fa-bars" style="color: #FD7E14;"></i>
@@ -46,29 +47,27 @@
                 </ul>
 
             </div>
-        </div>
-    </nav>
 
+        </nav>
+    </div>
     <!-- end of nav menu -->
     <!-- top banner -->
     <div class="pt-5">
         <div class="bg-image7">
+            <div class="container-fluid ">
+                <div class="row col-12">
+                    <p class=" donate-head">Donate</p>
 
-
-            <div class="container ">
-                <div class="row">
-                    <p class=" ml-5 mt- pt- main-heading">Donate</p>
-                    <hr class="text-left">
                 </div>
 
                 <div class="row">
-                    <p class=" ml-3 mt- pt- text-white small-landing-text">
+                    <p class=" ml-3 mt- pt- text-white don-text">
                         No amount is too small to be donated. No material is too small to donate.
                     </p>
                 </div>
                 <div class="row">
-                    <div class="col-6">
-                        <p class="text-white small-landing-text">
+                    <div class="col-md-6">
+                        <p class="text-white don-text">
                             Extend love today...
                         </p>
                     </div>
@@ -79,8 +78,7 @@
                     <div class="col-3">
                         <p class="text-center">
 
-                            <a href="upload.html" class="btn solid-light-orange-btn px-4 text-white btn-lg bold"
-                                style="font-size: 1.8vw;">
+                            <a href="upload.html" class="btn solid-light-orange-btn px-4 text-white btn-md bold">
                                 Upload
                             </a>
                         </p>
@@ -88,8 +86,7 @@
                     <!-- 2nd btn -->
                     <div class="col-3">
                         <p class="text-center">
-                            <a href="donate.html" class="btn bold solid-deep-orange-btn px-4 px-sm-3 text-white btn-lg"
-                                style="font-size: 1.8vw;">
+                            <a href="donate.html" class="btn bold solid-deep-orange-btn px-4 px-sm-3 text-white btn-md">
                                 Donate
                             </a>
                         </p>
@@ -100,325 +97,325 @@
             </div>
         </div>
     </div>
-    </div>
+
 
 
     <!-- donations -->
-    <div class="container">
-        <div class="row col-12">
-            <!-- donate form -->
-            <!-- money -->
 
-            <div class="col-md-4">
-                <div class="container pt-5">
-                    <div class="card donate-card">
-                        <h2 class="text-center donate-heading pt-3">MONEY</h2>
-                        <p class="donate-card-text px-5 pt-4">
-                            Help donate money for a great cause. No amount of money is too small.
-                        </p>
-                        <form action="#" id="contact-form" class="inline-form py-4 px-5">
-                            <div class="row">
-                                <!-- name -->
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label for="name" class="col-12 label-color">Name:</label>
-                                        <input type="text" name="name" class="form-control" placeholder="Anonymous">
-                                    </div>
+    <div class="row col-12">
+        <!-- donate form -->
+        <!-- money -->
+
+        <div class="col-md-4">
+            <div class="pt-5">
+                <div class="d-block mx-auto donate-card">
+                    <h2 class="text-center donate-title pt-3">MONEY</h2>
+                    <p class="donate-card-text px-3 px-md-4 pt-4">
+                        Help donate money for a great cause. No amount of money is too small.
+                    </p>
+                    <form action="#" id="contact-form" class="inline-form py-4 px-5">
+                        <div class="row">
+                            <!-- name -->
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="name" class="col-12 label-color">Name:</label>
+                                    <input type="text" name="name" class="form-control" placeholder="Anonymous">
                                 </div>
                             </div>
+                        </div>
 
-                            <!-- email -->
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label for="email" class="col-12 label-color">Email:</label>
-                                        <input type="email" name="email" class="form-control"
-                                            placeholder="Enter email address">
-                                    </div>
+                        <!-- email -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="email" class="col-12 label-color">Email:</label>
+                                    <input type="email" name="email" class="form-control"
+                                        placeholder="Enter email address">
                                 </div>
                             </div>
-                            <!-- amount -->
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <div class="wrapper">
-                                            <div class="form-inline">
-                                                <label for="inlineFormInputGroup">Amount:</label>
-                                                <div class="input-group mb-2 mr-sm-2 mb-sm-0">
-                                                    <!-- currency -->
-                                                    <div class="input-group-addon currency-symbol mr-2 pt-2">₦</div>
-                                                    <!-- entry space -->
-                                                    <input type="text" class="form-control currency-amount"
-                                                        id="inlineFormInputGroup" placeholder="0.00" size="8">
-                                                    <!-- full currency -->
-                                                    <div class="input-group-addon currency-addon">
-                                                        <select class="currency-selector">
-                                                            <option data-symbol="₦" data-placeholder="0.00" selected>NGN
-                                                            </option>
-                                                            <option data-symbol="$" data-placeholder="0.00">USD</option>
-                                                            <option data-symbol="€" data-placeholder="0.00">EUR</option>
-                                                            <option data-symbol="£" data-placeholder="0.00">GBP</option>
-                                                            <option data-symbol="¥" data-placeholder="0.00">JPY</option>
-                                                            <option data-symbol="$" data-placeholder="0.00">CAD</option>
-                                                            <option data-symbol="$" data-placeholder="0.00">AUD</option>
-                                                        </select>
-                                                    </div>
+                        </div>
+                        <!-- amount -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <div class="wrapper">
+                                        <div class="form-inline">
+                                            <label for="inlineFormInputGroup">Amount:</label>
+                                            <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                                                <!-- currency -->
+                                                <div class="input-group-addon currency-symbol mr-2 pt-2">₦</div>
+                                                <!-- entry space -->
+                                                <input type="text" class="form-control currency-amount"
+                                                    id="inlineFormInputGroup" placeholder="0.00" size="8">
+                                                <!-- full currency -->
+                                                <div class="input-group-addon currency-addon">
+                                                    <select class="currency-selector">
+                                                        <option data-symbol="₦" data-placeholder="0.00" selected>NGN
+                                                        </option>
+                                                        <option data-symbol="$" data-placeholder="0.00">USD</option>
+                                                        <option data-symbol="€" data-placeholder="0.00">EUR</option>
+                                                        <option data-symbol="£" data-placeholder="0.00">GBP</option>
+                                                        <option data-symbol="¥" data-placeholder="0.00">JPY</option>
+                                                        <option data-symbol="$" data-placeholder="0.00">CAD</option>
+                                                        <option data-symbol="$" data-placeholder="0.00">AUD</option>
+                                                    </select>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+                        </div>
 
-                            <!-- submit button -->
-                            <div class="row">
-                                <div class="col-12 text-center">
-                                    <button class="btn solid-deep-orange-btn bold btn-md text-white">Donate now</button>
-                                </div>
+                        <!-- submit button -->
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <button class="btn solid-deep-orange-btn bold btn-md text-white">Donate now</button>
                             </div>
+                        </div>
 
-                        </form>
-                    </div>
+                    </form>
                 </div>
             </div>
-            <!-- essentials -->
-            <div class="col-md-4">
-                <div class="container pt-5">
-                    <div class="card donate-card">
-                        <h2 class="text-center donate-heading pt-3">ESSENTIALS</h2>
-                        <p class="donate-card-text px-5 pt-4">
-                            Help donate essential materials like clothes, books, food, shoes,
-                            clean water, etc
-                        </p>
-                        <form action="#" id="contact-form" class="inline-form py-4 px-5">
-                            <div class="row">
-                                <!-- name -->
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label for="name" class="col-12 label-color">Name:</label>
-                                        <input type="text" name="name" class="form-control" placeholder="Anonymous">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- email -->
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label for="email" class="col-12 label-color">Email:</label>
-                                        <input type="email" name="email" class="form-control"
-                                            placeholder="Enter email address">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- check items -->
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label for="subject" class="col-12 label-color">Check items to donate(You can
-                                            select more than 1):</label>
-                                        <div class="custom-control custom-checkbox custom-control-inline">
-                                            <input type="checkbox" class="custom-control-input" id="shoes">
-                                            <label for="shoes" class="custom-control-label">Shoes</label>
-                                        </div>
-                                        <div class="custom-control custom-checkbox custom-control-inline">
-                                            <input type="checkbox" class="custom-control-input" id="clothes">
-                                            <label for="clothes" class="custom-control-label">Clothes</label>
-                                        </div>
-                                        <div class="custom-control custom-checkbox custom-control-inline">
-                                            <input type="checkbox" class="custom-control-input" id="books">
-                                            <label for="books" class="custom-control-label">Books</label>
-                                        </div>
-                                        <div class="custom-control custom-checkbox custom-control-inline">
-                                            <input type="checkbox" class="custom-control-input" id="water">
-                                            <label for="water" class="custom-control-label">Water</label>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- textarea -->
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label for="msg" class="col-12 label-color">Others(Please list other essentials
-                                            you
-                                            will like to donate):</label>
-                                        <textarea name="message" cols="20" rows="3" class="form-control"
-                                            placeholder="Other items"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- submit button -->
-                            <div class="row">
-                                <div class="col-12 text-center">
-                                    <button class="btn solid-deep-orange-btn bold btn-md text-white">Donate now</button>
-                                </div>
-                            </div>
-
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <!-- essentials end -->
-
-            <!-- welfare -->
-
-            <div class="col-md-4">
-                <div class="container pt-5">
-                    <div class="card donate-card">
-                        <h2 class="text-center donate-heading pt-3">WELFARE</h2>
-                        <p class="donate-card-text px-5 pt-4">
-                            Help donate food, medical materials, health services to the less-priviledged.
-                        </p>
-                        <form action="#" id="contact-form" class="inline-form py-4 px-5">
-                            <div class="row">
-                                <!-- name -->
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label for="name" class="col-12 label-color">Name:</label>
-                                        <input type="text" name="name" class="form-control" placeholder="Anonymous">
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- email -->
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label for="email" class="col-12 label-color">Email:</label>
-                                        <input type="email" name="email" class="form-control"
-                                            placeholder="Enter email address">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- check items -->
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label for="subject" class="col-12 label-color">Check items to donate(You can
-                                            select more than 1):
-                                            <div class="custom-control custom-checkbox custom-control-inline">
-                                                <input type="checkbox" class="custom-control-input" id="food">
-                                                <label for="food" class="custom-control-label">Food items</label>
-                                            </div>
-                                            <div class="custom-control custom-checkbox custom-control-inline">
-                                                <input type="checkbox" class="custom-control-input"
-                                                    id="medical materials">
-                                                <label for="medical materials" class="custom-control-label">Medical
-                                                    materials</label>
-                                            </div>
-                                            <div class="custom-control custom-checkbox custom-control-inline">
-                                                <input type="checkbox" class="custom-control-input" id="health service">
-                                                <label for="health service" class="custom-control-label">Health
-                                                    service</label>
-                                            </div>
-                                            <div class="custom-control custom-checkbox custom-control-inline">
-                                                <input type="checkbox" class="custom-control-input" id="education">
-                                                <label for="education" class="custom-control-label">Education
-                                                    sponsorship
-
-                                                </label>
-                                            </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- textarea -->
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="form-group">
-                                        <label for="msg" class="col-12 label-color">Others(Please list other essentials
-                                            you
-                                            will like to donate):</label>
-                                        <textarea name="message" cols="20" rows="3" class="form-control"
-                                            placeholder="Other items"></textarea>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- submit button -->
-                            <div class="row">
-                                <div class="col-12 text-center">
-                                    <button class="btn solid-deep-orange-btn bold text-white btn-md">Donate now</button>
-                                </div>
-                            </div>
-
-                        </form>
-                    </div>
-                </div>
-            </div>
-            <!-- essentials end -->
         </div>
-        <!-- footer with copyright -->
+        <!-- essentials -->
+        <div class="col-md-4">
+            <div class="pt-5">
+                <div class="d-block mx-auto donate-card">
+                    <h2 class="text-center donate-title pt-3 px-1">ESSENTIALS</h2>
+                    <p class="donate-card-text px-3 px-md-4 pt-4">
+                        Help donate essential materials like clothes, books, food, shoes,
+                        clean water, etc
+                    </p>
+                    <form action="#" id="contact-form" class="inline-form py-4 px-5">
+                        <div class="row">
+                            <!-- name -->
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="name" class="col-12 label-color">Name:</label>
+                                    <input type="text" name="name" class="form-control" placeholder="Anonymous">
+                                </div>
+                            </div>
+                        </div>
 
-        <footer class="site-footer bg-image4 " role="contentinfo">
-            <div class="container">
-                <div class="row mt-5">
-                    <!-- social media -->
-                    <div class="col-md-3">
-                        <h5 class="mt-5 mb-5">SOCIAL MEDIA</h5>
-                        <ul class="list-unstyled footer-link d-flex footer-social">
-                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f mr-3" aria-hidden="true"
-                                        style="color:#FD7E14;"></i></a></li>
-                            <!-- instagram -->
-                            <li><a href="#" target="_blank"><i class="fab fa-instagram mx-3" aria-hidden="true"
-                                        style="color:#FD7E14;"></i></a></li>
-                            <!-- linkedin -->
-                            <li><a href="#" target="_blank"><i class="fab fa-linkedin mx-3" aria-hidden="true"
-                                        style="color:#FD7E14;"></i></a></li>
-                            <!-- twitter -->
-                            <li><a href="#" target="_blank"><i class="fab fa-twitter mx-3" aria-hidden="true"
-                                        style="color:#FD7E14 ;"></i></a></li>
-                        </ul>
-                    </div>
-                    <!-- social end -->
+                        <!-- email -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="email" class="col-12 label-color">Email:</label>
+                                    <input type="email" name="email" class="form-control"
+                                        placeholder="Enter email address">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- check items -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="select" class="col-12 label-color">Check items to donate(You can
+                                        select more than 1):</label>
+                                    <div class="custom-control custom-checkbox custom-control-inline">
+                                        <input type="checkbox" class="custom-control-input" id="shoes">
+                                        <label for="shoes" class="custom-control-label">Shoes</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox custom-control-inline">
+                                        <input type="checkbox" class="custom-control-input" id="clothes">
+                                        <label for="clothes" class="custom-control-label">Clothes</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox custom-control-inline">
+                                        <input type="checkbox" class="custom-control-input" id="books">
+                                        <label for="books" class="custom-control-label">Books</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox custom-control-inline">
+                                        <input type="checkbox" class="custom-control-input" id="water">
+                                        <label for="water" class="custom-control-label">Water</label>
+                                    </div>
 
-                    <!-- contacts -->
-                    <div class="col-md-3 mb-5">
-                        <h5 class="mt-5 mb-3 ml-5">CONTACT</h5>
-                        <ul class="list-unstyled footer-link">
-                            <li class="d-flex mb-2"><i class="fa fa-phone mr-3"></i><span
-                                    class="text-dark">+2347036397871</span>
-                            </li>
-                            <li class="d-flex mb-2"><i class="fa fa-envelope mr-3"></i><span
-                                    class="text-dark">info@broodafrica.org</span></li>
-                            <li class="d-flex"><i class="fa fa-map-marker mr-3"></i><span class="text-dark">No 2,
-                                    address
-                                    street,Lagos,
-                                    Nigeria.</span>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 mb-5">
-                        <h5 class="mt-5">USEFUL LINKS</h5>
-                        <ul class="list-unstyled footer-link">
-                            <li><a href="donate.html" class="text-dark">Donate</a></li>
-                            <li><a href="upload.html" class="text-dark">Upload</a></li>
-                            <li><a href="volunteer.html" class="text-dark">Volunteer</a></li>
-                            <li><a href="#" class="text-dark">Privacy Policy</a></li>
-                            <li><a href="about-us.html" class="text-dark">Our Partners</a></li>
-                            <li><a href="broods.html" class="text-dark">Broods</a></li>
-                            <li><a href="about-us.html" class="text-dark">How It Works</a></li>
-                        </ul>
-                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- textarea -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="msg" class="col-12 label-color">Others (Please list other essentials
+                                        you
+                                        will like to donate):</label>
+                                    <textarea name="message" cols="20" rows="3" class="form-control"
+                                        placeholder="Other items"></textarea>
+                                </div>
+                            </div>
+                        </div>
 
-                    <!-- subscribe -->
-                    <div class="col-md-3 ">
-                        <h5 class="mt-5 bold">Subscribe to our mailing list</h5>
-                        <form class="d-flex flex-wrap align-items-center">
-                            <input type="email" placeholder="Enter email" class="form-control mb-2 subscribe-form">
-                            <button class="btn solid-deep-orange-btn2" type="submit">Subscribe</button>
+                        <!-- submit button -->
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <button class="btn solid-deep-orange-btn bold btn-md text-white">Donate now</button>
+                            </div>
+                        </div>
 
-                        </form>
-                    </div>
+                    </form>
                 </div>
             </div>
-            <div class="row col-12 copyright d-block mx-auto ">
-                <p class="pt-3 px-3">&copy; Brood Africa 2019</p>
+        </div>
+        <!-- essentials end -->
+
+        <!-- welfare -->
+
+        <div class="col-md-4">
+            <div class="pt-5">
+                <div class="d-block mx-auto donate-card">
+                    <h2 class="text-center donate-title pt-3 px-1">WELFARE</h2>
+                    <p class="donate-card-text px-3 px-md-4 pt-4">
+                        Help donate food, medical materials, health services to the less-priviledged.
+                    </p>
+                    <form action="#" id="contact-form" class="inline-form py-4 px-5">
+                        <div class="row">
+                            <!-- name -->
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="name" class="col-12 label-color">Name:</label>
+                                    <input type="text" name="name" class="form-control" placeholder="Anonymous">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- email -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="email" class="col-12 label-color">Email:</label>
+                                    <input type="email" name="email" class="form-control"
+                                        placeholder="Enter email address">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- check items -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="subject" class="col-12 label-color">Check items to donate(You can
+                                        select more than 1):</label>
+                                        <div class="custom-control custom-checkbox custom-control-inline">
+                                            <input type="checkbox" class="custom-control-input" id="food">
+                                            <label for="food" class="custom-control-label">Food items</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox custom-control-inline">
+                                            <input type="checkbox" class="custom-control-input" id="medical materials">
+                                            <label for="medical materials" class="custom-control-label">Medical
+                                                materials</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox custom-control-inline">
+                                            <input type="checkbox" class="custom-control-input" id="health service">
+                                            <label for="health service" class="custom-control-label">Health
+                                                service</label>
+                                        </div>
+                                        <div class="custom-control custom-checkbox custom-control-inline">
+                                            <input type="checkbox" class="custom-control-input" id="education">
+                                            <label for="education" class="custom-control-label">Education
+                                                sponsorship
+
+                                            </label>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- textarea -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <label for="msg" class="col-12 label-color">Others (Please list other essentials
+                                        you
+                                        will like to donate):</label>
+                                    <textarea name="message" cols="20" rows="3" class="form-control"
+                                        placeholder="Other items"></textarea>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- submit button -->
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <button class="btn solid-deep-orange-btn bold text-white btn-md">Donate now</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
             </div>
-        </footer>
-        <!-- END footer -->
+        </div>
+        <!-- essentials end -->
+    </div>
+    <!-- footer with copyright -->
+
+    <footer class="site-footer bg-image4 " role="contentinfo">
+        <div class="container-fluid">
+            <div class="row mt-5">
+                <!-- social media -->
+                <div class="col-md-3">
+                    <h5 class="mt-5 mb-5">SOCIAL MEDIA</h5>
+                    <ul class="list-unstyled footer-link d-flex footer-social">
+                        <li><a href="#" target="_blank"><i class="fab fa-facebook-f mr-3" aria-hidden="true"
+                                    style="color:#FD7E14;"></i></a></li>
+                        <!-- instagram -->
+                        <li><a href="#" target="_blank"><i class="fab fa-instagram mx-3" aria-hidden="true"
+                                    style="color:#FD7E14;"></i></a></li>
+                        <!-- linkedin -->
+                        <li><a href="#" target="_blank"><i class="fab fa-linkedin mx-3" aria-hidden="true"
+                                    style="color:#FD7E14;"></i></a></li>
+                        <!-- twitter -->
+                        <li><a href="#" target="_blank"><i class="fab fa-twitter mx-3" aria-hidden="true"
+                                    style="color:#FD7E14 ;"></i></a></li>
+                    </ul>
+                </div>
+                <!-- social end -->
+
+                <!-- contacts -->
+                <div class="col-md-3 mb-5">
+                    <h5 class="mt-5 mb-3">CONTACT</h5>
+                    <ul class="list-unstyled footer-link">
+                        <li class="d-flex mb-2"><i class="fa fa-phone mr-3"></i><span
+                                class="text-dark">+2347036397871</span>
+                        </li>
+                        <li class="d-flex mb-2"><i class="fa fa-envelope mr-3"></i><span
+                                class="text-dark">info@broodafrica.org</span></li>
+                        <li class="d-flex"><i class="fa fa-map-marker mr-3"></i><span class="text-dark">No 2,
+                                address
+                                street,Lagos,
+                                Nigeria.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-5">
+                    <h5 class="mt-md-5">USEFUL LINKS</h5>
+                    <ul class="list-unstyled footer-link">
+                        <li><a href="donate.html" class="text-dark">Donate</a></li>
+                        <li><a href="upload.html" class="text-dark">Upload</a></li>
+                        <li><a href="volunteer.html" class="text-dark">Volunteer</a></li>
+                        <li><a href="#" class="text-dark">Privacy Policy</a></li>
+                        <li><a href="about-us.html" class="text-dark">Our Partners</a></li>
+                        <li><a href="broods.html" class="text-dark">Broods</a></li>
+                        <li><a href="about-us.html" class="text-dark">How It Works</a></li>
+                    </ul>
+                </div>
+
+                <!-- subscribe -->
+                <div class="col-md-3 ">
+                    <h5 class="mt-5 bold">Subscribe to our mailing list</h5>
+                    <form class="d-flex flex-wrap align-items-center">
+                        <input type="email" placeholder="Enter email" class="form-control mb-2 subscribe-form">
+                        <button class="btn solid-deep-orange-btn2" type="submit">Subscribe</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row col-12 copyright d-block mx-auto ">
+            <p class="py-3 px-3">&copy; Brood Africa 2019</p>
+        </div>
+    </footer>
+    <!-- END footer -->
+    </div>
 
 
 
@@ -427,10 +424,9 @@
 
 
 
-
-        <script src="js/all.js"></script>
-        <script src="js/jquery-3.3.1.slim.min.js"></script>
-        <script src="js/popper.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/index.js"></script>
+    <script src="js/all.js"></script>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
 </body>
